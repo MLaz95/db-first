@@ -1,0 +1,15 @@
+Table: cars
+
+id: SMALLINT, PK
+license_plate: VARCHAR (10), NOT NULL, UNIQUE
+price: MEDIUMINT, NOT NULL
+manufacturer: VARCHAR (50), NOT NULL
+model: VARCHAR (50), NOT NULL
+fuel_type: VARCHAR (15), NOT NULL
+condition: VARCHAR (25), NULL
+power_kw: SMALLINT, NULL
+mileage_km: MEDIUMINT, NULL
+first_registration: DATE, NULL
+description: TEXT, NULL
+euro_emission_class: VARCHAR (10), NULL
+color: VARCHAR (10), NULL
